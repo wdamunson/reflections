@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By filtering out all the parts of the document that weren't changed, it was much easier to analyze the parts that were changed and find errors.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would be easier to find errors and you could always go back to a previous version if you decide to take the project in a different direction.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manual commiting is that you can choose the specific versions of the project that you want saved, whereas the downside of manual commit (and the upside of auto-commit) is that you can sometimes be forgetful and not save when you should.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is designed for programmers who will likely be using multiple files that relate to one another, while google docs is more likely being used for single documents that don't relate to one another.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows you all the commits that have been made throughout the repository's history, and git diff will show you the difference between two different commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If you make a change that could break something, you can always revert to a previous commit.  This means that nothing will ever be "permanently" broken.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Git will be useful for saving versions of my projects and making sure that I can experiment with code without worrying about "breaking" the project.
